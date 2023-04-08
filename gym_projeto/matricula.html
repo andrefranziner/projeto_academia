@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrícula - Academia</title>
+    <link rel="stylesheet" href="../style_pastas/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 50px;
+            width: 70%;
+        }
+
+        h1 {
+            font-family: 'Bebas Neue', cursive;
+            color: yellow;
+            font-size: 60px;
+        }
+
+        form {
+            margin: 10px;
+            border-style: solid;
+            border-radius: 10px;
+            background-color: yellow;
+        }
+
+        form div {
+            margin: 10px;
+            font-family: 'Oswald', sans-serif;
+        }
+
+        form button {
+            margin: 10px;
+            font-family: 'Oswald', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1><em>MATRICULE-SE AGORA EM UMA DAS NOSSAS UNIDADES !!</em></h1>
+
+    <form action="" method="post">
+        <div>
+            <label for="name">Nome:</label>
+            <input type="text" id="name">
+        </div>
+        <div>
+            <label for="tel">Telefone:</label>
+            <input type="number">
+        </div>
+        <div>
+            <label for="genero">Gênero:</label>
+            <select name="select" id="generoselect">
+                <option value="">Selecione</option>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="indefinido">Indefinido</option>
+            </select>
+        </div>
+        <div>
+            <label for="nascimento">Data de nascimento:</label>
+            <input type="date">
+        </div>
+        <div>
+            <label for="doenca">Selecione se houver alguma doença</label>
+            <select name="select" id="doencaselect">
+                <option value="">Selecione</option>
+                <option value="diabetes">Diabetes</option>
+                <option value="hipertensao">Hipertensão</option>
+                <option value="asma">Asma</option>
+                <option value="artrite">Artrite</option>
+                <option value="renal">Renal</option>
+                <option value="depressao">Depressão</option>
+                <option value="esclerose">Esclerose</option>
+                <option value="hivaids">HIV/AIDS</option>
+                <option value="cancer">Câncer</option>
+                <option value="cardiovascular">Cardiovascular</option>
+                <option value="outro">Outro</option>
+            </select>
+        </div>
+        <div>
+            <label for="bairro">Unidade:</label>
+            <select name="select" id="bairroselect">
+                <option value="">Selecione</option>
+                <option value="xaxim">Xaxim</option>
+                <option value="altoboqueirao">Alto Boqueirão</option>
+                <option value="boqueirao">Boqueirão</option>
+                <option value="sitiocercado">Sítio Cercado</option>
+                <option value="batel">Batel</option>
+            </select>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email">
+        </div>
+
+        <button type="submit" formaction="obrigado.html">Enviar</button>
+    </form>
+
+</body>
+
+</html>
